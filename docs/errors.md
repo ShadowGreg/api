@@ -392,6 +392,13 @@ HTTP code | type | value | описание
 403 | vacancies | unavailable_for_archived | продление недоступно для архивной вакансии
 403 | vacancies | too_early | продление раньше времени
 
+<a name="vacancy_draft"></a>
+### Черновик вакансии
+HTTP code | type | value | описание
+----------|------|-------|---------
+400 | bad_json_data | *[field_names]* | список с наименованиями полей с ошибками
+
+
 
 <a name="employer_managers"></a>
 ### Менеджеры работодателя
